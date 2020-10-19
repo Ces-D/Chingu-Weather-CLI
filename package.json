@@ -1,0 +1,22 @@
+{
+  "name": "chingu-weather-cli",
+  "version": "1.0.0",
+  "description": "Tier 2 Chingu Weather CLI using Weather API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ces-D/Chingu-Weather-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ces-D/Chingu-Weather-CLI/issues"
+  },
+  "homepage": "https://github.com/Ces-D/Chingu-Weather-CLI#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
