@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
-const { program } = require("commander");
-const pkg = require("../package.json");
+const weatherAPI = require("../lib/WeatherAPI");
 
-program
-    .version(pkg.version)
-    .command("key", "Api Key - https://www.weatherapi.com/")
-    .command("loc", "Get weather of a location")
-    .parse(process.argv);
+if (process.argv[3]) {
+    console.log("Sorry but only one location");
+} else {
+    const location = process.argv[2];
+    weatherAPI(location)
+}
+
+
