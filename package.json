@@ -4,7 +4,7 @@
   "description": "Tier 2 Chingu Weather CLI using Weather API",
   "main": "index.js",
   "bin": {
-    "weather": ".bin/cli.js"
+    "weather": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/Ces-D/Chingu-Weather-CLI#readme",
   "dependencies": {
-    "commander": "^6.1.0",
-    "dotenv": "^8.2.0",
-    "inquirer": "^7.3.3"
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0"
   }
 }
